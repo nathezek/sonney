@@ -1,0 +1,11 @@
+{
+  "name": "sonney",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "bun --filter web-app dev",
+    "build:wasm": "cd rust-core && wasm-pack build --target web --out-dir ../packages/web-app/src/wasm"
+  }
+}
