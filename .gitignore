@@ -32,3 +32,13 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+#rust
+target/
+pkg/
+
+# Bun
+bun.lockb
+
+# WASM build artifacts
+packages/web-app/src/wasm/
